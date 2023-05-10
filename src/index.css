@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .heading1 {
+    @apply text-3xl py-4;
+  }
+  .heading2 {
+    @apply text-2xl py-4;
+  }
+  .heading3 {
+    @apply text-xl py-4;
+  }
+
+  .button-container {
+    @apply flex justify-center m-5;
+  }
+  .button1 {
+    @apply bg-primary dark:bg-primary_dark rounded-full my-2 py-2 px-4 text-white font-semibold;
+  }
+  .input1 {
+    @apply rounded-md border-slate-200 shadow-sm hover:shadow-lg transition-shadow;
+  }
+  .component-container {
+    @apply bg-white rounded-lg shadow dark:bg-gray-900 m-4;
+  }
+  .section-container {
+    @apply xl:w-3/5 lg:w-4/5 p-5 flex flex-col items-center self-center;
+  }
+  .nav {
+    @apply flex justify-between w-full items-center py-2 px-4;
+  }
+  .blob {
+    border-radius: 53% 47% 22% 78% / 65% 46% 54% 35%;
+  }
+  .team-photo1 {
+    border-radius: 13% 0 52% 78% / 75% 0 50% 45%;
+  }
+  .alex {
+    width: 150px;
+    height: 150px;
+    background-image: url(/profilepic1.png);
+    background-size: 200%;
+    background-position: 52% 5%;
+    background-repeat: no-repeat;
+  }
+}
