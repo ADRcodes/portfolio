@@ -39,6 +39,10 @@ module.exports = {
       spacing: {
         88: "22rem",
       },
+      fontFamily: {
+        custom1: ["Jura", "sans-serif"],
+        custom2: ["Inconsolata", "monospace"],
+      },
     },
   },
   plugins: [require("flowbite/plugin")],
