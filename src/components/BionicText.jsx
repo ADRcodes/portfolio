@@ -1,21 +1,11 @@
 import React from "react"
+import { useBionicText } from "../hooks/useBionicText"
 
 const BionicText = ({ text }) => {
-  const generateBionicText = () => {
-    return text.split(" ").map((word, index) => {
-      const firstHalf = word.slice(0, Math.ceil(word.length / 2))
-      const secondHalf = word.slice(Math.ceil(word.length / 2))
+  const { generateBionicText } = useBionicText()
+  const renderedText = generateBionicText(text)
 
-      return (
-        <React.Fragment key={index}>
-          <b>{firstHalf}</b>
-          {secondHalf}{" "}
-        </React.Fragment>
-      )
-    })
-  }
-
-  return <div>{generateBionicText()}</div>
+  return <div>{renderedText}</div>
 }
 
 export default BionicText

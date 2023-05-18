@@ -14,7 +14,7 @@ import NodeIcon from "../assets/SVGs/NodeIcon"
 
 const Skills = () => {
   return (
-    <div className="mb-[100px]">
+    <div className="mb-[100px] p-5">
       <h1 className="h1">Skills</h1>
       <div className="flex flex-wrap gap-4">
         {/* <BeakerIcon className="h-6 w-6 text-blue-500" /> */}
