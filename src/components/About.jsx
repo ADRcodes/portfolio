@@ -9,6 +9,7 @@ const About = () => {
 
   const textOptions = [
     "I'm trying!",
+    "Passionate about innovation, social entrepreneurship, and new experiences.",
     "Passionate about innovation, social entrepreneurship, and new experiences, I'm driven to improve the world through my work, leveraging my skills, knowledge, and problem-solving abilities.",
     "Driven by my passion for innovation, social entrepreneurship, and the pursuit of new experiences, I am dedicated to making a positive impact on the world. Over the course of several years, I have had the privilege of working with and leading teams on social-impact initiatives.",
     "With an unwavering passion for innovation, social entrepreneurship, and the pursuit of new experiences, I have dedicated years of my career to leading teams and driving social-impact initiatives, forging a strong determination to bring about positive change in the world. Leveraging my critical thinking skills acquired through engineering and extensive business acumen, I approach my next endeavor with eagerness and a steadfast commitment to excellence. My easygoing nature, open-mindedness, and adaptability have been instrumental in my ability to excel in diverse environments, where I thrive on generating novel and transformative solutions while optimizing intricate systems.",

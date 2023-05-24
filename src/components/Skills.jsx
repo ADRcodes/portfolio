@@ -11,6 +11,7 @@ import VSCodeIcon from "../assets/SVGs/VSCodeIcon"
 import TailwindIcon from "../assets/SVGs/TailwindIcon"
 import ViteIcon from "../assets/SVGs/ViteIcon"
 import NodeIcon from "../assets/SVGs/NodeIcon"
+import AxiosIcon from "../assets/SVGs/AxiosIcon"
 
 const Skills = () => {
   return (
@@ -29,6 +30,7 @@ const Skills = () => {
         <TailwindIcon size={100} />
         <ViteIcon size={100} />
         <NodeIcon size={100} />
+        <AxiosIcon size={100} />
       </div>
     </div>
   )

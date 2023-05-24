@@ -1,14 +1,14 @@
 import React from "react"
 import About from "../components/About"
 import Hero from "../components/Hero"
-import Skills from "../components/Skills"
+import ImageSlider from "../components/Slider"
 
 const Home = () => {
   return (
     <div>
       <Hero />
       <About />
-      <Skills />
+      <ImageSlider />
     </div>
   )
 }

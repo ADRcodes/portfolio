@@ -28,6 +28,16 @@
     @apply bg-primary text-white w-fit h-fit py-1 px-3 rounded-full;
   }
 
+  .icon-container {
+    @apply flex flex-col items-center justify-center;
+  }
+  .icon {
+    @apply hover:scale-125 transition-all duration-300 ease-in-out;
+  }
+  .icon-text {
+    @apply text-lg whitespace-nowrap font-custom2 font-bold group-hover:opacity-100 opacity-0 transition-all duration-300 ease-in-out;
+  }
+
   .blob {
     border-radius: 53% 47% 22% 78% / 65% 46% 54% 35%;
   }
