@@ -32,7 +32,7 @@ const ImageSlider = () => {
 
   return (
     <div className="flex items-center justify-center">
-      <div className="w-[200%] h-20 relative">
+      <div className="w-[200%] h-[100px] relative overflow-hidden">
         <div className="w-[200%] flex items-center h-20 justify-around absolute left-0 animate gap-[100px]">
           {images.map((image, index) => (
             <div

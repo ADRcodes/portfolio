@@ -2,8 +2,8 @@ import React from "react"
 import Hamburger from "./Hamburger"
 
 const links = [
-  { url: "/sundays", label: "Project" },
-  { url: "/new-woman", label: "About" },
+  { url: "/", label: "Home" },
+  { url: "/experimental", label: "Experimental" },
   { url: "/contact", label: "Contact" },
 ]
 

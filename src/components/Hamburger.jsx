@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react"
+import { Link } from "react-router-dom"
 
 const Hamburger = ({ links }) => {
   const [isCollapsed, setIsCollapsed] = useState(true)
@@ -59,7 +60,8 @@ const Hamburger = ({ links }) => {
             <li
               className="burger-list-item"
               key={index}>
-              <a href={link.url}>{link.label}</a>
+              <Link to={link.url}>{link.label}</Link>
+              {/* <a href={link.url}>{link.label}</a> */}
             </li>
           ))}
         </ul>
